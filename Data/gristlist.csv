@@ -1,0 +1,247 @@
+ID,NAME,D_NAME,ORIGIN,CATEGORY,TYPE,LOV,SRM,POT_SG
+0,Aromatic Malt,American - Aromatic Malt,American,Grain,Base malt,20,26.4,1.035
+1,Ashbourne Mild,American - Ashbourne Mild,American,Grain,Base malt,5.3,6.6,1.03
+2,Black Barley,American - Black Barley,American,Grain,Roasted malt,530,714.9,1.027
+3,Black Malt,American - Black Malt,American,Grain,Roasted malt,500,674.4,1.028
+4,Blackprinz,American - Blackprinz,American,Grain,Roasted malt,500,674.4,1.036
+5,Bonlander Munich,American - Bonlander Munich,American,Grain,Base malt,10,12.9,1.036
+6,Buckwheat Malt - Gluten Free,American - Buckwheat Malt - Gluten Free,American,Grain,Gluten-free malt,2,2.1,1.025
+7,CaraBrown,American - CaraBrown,American,Grain,Roasted malt,55,73.7,1.034
+8,CaraCrystal Wheat Malt,American - CaraCrystal Wheat Malt,American,Grain,Crystal malt,55,73.7,1.034
+9,Caramel / Crystal 10L,American - Caramel / Crystal 10L,American,Grain,Crystal malt,10,12.9,1.035
+10,Caramel / Crystal 120L,American - Caramel / Crystal 120L,American,Grain,Crystal malt,120,161.4,1.033
+11,Caramel / Crystal 150L,American - Caramel / Crystal 150L,American,Grain,Crystal malt,150,201.9,1.033
+12,Caramel / Crystal 15L,American - Caramel / Crystal 15L,American,Grain,Crystal malt,15,19.7,1.035
+13,Caramel / Crystal 20L,American - Caramel / Crystal 20L,American,Grain,Crystal malt,20,26.4,1.035
+14,Caramel / Crystal 30L,American - Caramel / Crystal 30L,American,Grain,Crystal malt,30,39.9,1.034
+15,Caramel / Crystal 40L,American - Caramel / Crystal 40L,American,Grain,Crystal malt,40,53.4,1.034
+16,Caramel / Crystal 60L,American - Caramel / Crystal 60L,American,Grain,Crystal malt,60,80.4,1.034
+17,Caramel / Crystal 75L,American - Caramel / Crystal 75L,American,Grain,Crystal malt,75,100.7,1.033
+18,Caramel / Crystal 80L,American - Caramel / Crystal 80L,American,Grain,Crystal malt,80,107.4,1.033
+19,Caramel / Crystal 90L,American - Caramel / Crystal 90L,American,Grain,Crystal malt,90,120.9,1.033
+20,Carapils (Dextrine Malt),American - Carapils (Dextrine Malt),American,Grain,Crystal malt,1.8,1.8,1.033
+21,Chocolate,American - Chocolate,American,Grain,Roasted malt,350,471.9,1.029
+22,Crystal 10L Millet Malt - Gluten Free,American - Crystal 10L Millet Malt - Gluten Free,American,Grain,Gluten-free malt,10,12.9,1.025
+23,Crystal 30L Millet Malt - Gluten Free,American - Crystal 30L Millet Malt - Gluten Free,American,Grain,Gluten-free malt,30,39.9,1.025
+24,Dark Chocolate,American - Dark Chocolate,American,Grain,Roasted malt,420,566.4,1.029
+25,Dark Roasted Millet Malt - Gluten Free,American - Dark Roasted Millet Malt - Gluten Free,American,Grain,Gluten-free malt,300,404.4,1.025
+26,Light Roasted Millet Malt - Gluten Free,American - Light Roasted Millet Malt - Gluten Free,American,Grain,Gluten-free malt,7,8.9,1.025
+27,Medium Roasted Millet Malt - Gluten Free,American - Medium Roasted Millet Malt - Gluten Free,American,Grain,Gluten-free malt,36,48,1.025
+28,Midnight Wheat Malt,American - Midnight Wheat Malt,American,Grain,Roasted malt,550,741.9,1.033
+29,Munich - 60L,American - Munich - 60L,American,Grain,Base malt,60,80.4,1.033
+30,Munich - Dark 20L,American - Munich - Dark 20L,American,Grain,Base malt,20,26.4,1.033
+31,Munich - Light 10L,American - Munich - Light 10L,American,Grain,Base malt,10,12.9,1.033
+32,Munich Millet Malt - Gluten Free,American - Munich Millet Malt - Gluten Free,American,Grain,Gluten-free malt,7,8.9,1.025
+33,Pale 2-Row,American - Pale 2-Row,American,Grain,Base malt,1.8,1.8,1.037
+34,Pale 2-Row - Toasted,American - Pale 2-Row - Toasted,American,Grain,Base malt,30,39.9,1.033
+35,Pale 6-Row,American - Pale 6-Row,American,Grain,Base malt,1.8,1.8,1.035
+36,Pale Ale,American - Pale Ale,American,Grain,Base malt,3.5,4.1,1.037
+37,Pale Millet Malt - Gluten Free,American - Pale Millet Malt - Gluten Free,American,Grain,Gluten-free malt,1.5,1.4,1.03
+38,Pilsner,American - Pilsner,American,Grain,Base malt,1.8,1.8,1.037
+39,Red Wheat,American - Red Wheat,American,Grain,Base malt,2.5,2.8,1.038
+40,Roasted Barley,American - Roasted Barley,American,Grain,Roasted malt,300,404.4,1.033
+41,Rye,American - Rye,American,Grain,Base malt,3.5,4.1,1.038
+42,Smoked Malt,American - Smoked Malt,American,Grain,Base malt,5,6.2,1.037
+43,Special Roast,American - Special Roast,American,Grain,Roasted malt,50,66.9,1.033
+44,Victory,American - Victory,American,Grain,Roasted malt,28,37.2,1.034
+45,Vienna,American - Vienna,American,Grain,Base malt,4,4.8,1.035
+46,Wheat,American - Wheat,American,Grain,Base malt,1.8,1.8,1.038
+47,White Wheat,American - White Wheat,American,Grain,Base malt,2.8,3.2,1.04
+48,Apricot,Apricot,,Fruit,Fruit,0,-0.6,1.004
+49,Banana,Banana,,Fruit,Fruit,0,-0.6,1.008
+50,Aromatic,Belgian - Aromatic,Belgian,Grain,Roasted malt,38,50.7,1.033
+51,Biscuit,Belgian - Biscuit,Belgian,Grain,Roasted malt,23,30.5,1.035
+52,Cara 20L,Belgian - Cara 20L,Belgian,Grain,Crystal malt,22,29.1,1.034
+53,Cara 45L,Belgian - Cara 45L,Belgian,Grain,Crystal malt,42,56.1,1.034
+54,Caramel Pils,Belgian - Caramel Pils,Belgian,Grain,Crystal malt,8,10.2,1.034
+55,CaraMunich,Belgian - CaraMunich,Belgian,Grain,Crystal malt,50,66.9,1.033
+56,CaraVienne,Belgian - CaraVienne,Belgian,Grain,Crystal malt,20,26.4,1.034
+57,Chocolate,Belgian - Chocolate,Belgian,Grain,Roasted malt,340,458.4,1.03
+58,De-Bittered Black,Belgian - De-Bittered Black,Belgian,Grain,Roasted malt,566,763.5,1.034
+59,Munich,Belgian - Munich,Belgian,Grain,Base malt,6,7.5,1.038
+60,Pale Ale,Belgian - Pale Ale,Belgian,Grain,Base malt,3.4,4,1.038
+61,Pilsner,Belgian - Pilsner,Belgian,Grain,Base malt,1.6,1.6,1.037
+62,Roasted Barley,Belgian - Roasted Barley,Belgian,Grain,Roasted malt,575,775.7,1.03
+63,Special B,Belgian - Special B,Belgian,Grain,Roasted malt,115,154.7,1.034
+64,Unmalted Wheat,Belgian - Unmalted Wheat,Belgian,Grain,Raw,2,2.1,1.036
+65,Wheat,Belgian - Wheat,Belgian,Grain,Base malt,1.8,1.8,1.038
+66,Belgian Candi Sugar - Amber/Brown (60L),Belgian Candi Sugar - Amber/Brown (60L),,Sugar,Sugar,60,80.4,1.038
+67,Belgian Candi Sugar - Clear/Blond (0L),Belgian Candi Sugar - Clear/Blond (0L),,Sugar,Sugar,0,-0.6,1.038
+68,Belgian Candi Sugar - Dark (275L),Belgian Candi Sugar - Dark (275L),,Sugar,Sugar,275,370.7,1.038
+69,Belgian Candi Syrup - Amber (40L),Belgian Candi Syrup - Amber (40L),,Sugar,Sugar,40,53.4,1.032
+70,Belgian Candi Syrup - Clear (0L),Belgian Candi Syrup - Clear (0L),,Sugar,Sugar,0,-0.6,1.032
+71,Belgian Candi Syrup - D-180,Belgian Candi Syrup - D-180,,Sugar,Sugar,180,242.4,1.032
+72,Belgian Candi Syrup - D2 (160L),Belgian Candi Syrup - D2 (160L),,Sugar,Sugar,160,215.4,1.032
+73,Belgian Candi Syrup - D-45,Belgian Candi Syrup - D-45,,Sugar,Sugar,45,60.2,1.032
+74,Belgian Candi Syrup - D-90,Belgian Candi Syrup - D-90,,Sugar,Sugar,90,120.9,1.032
+75,Belgian Candi Syrup - Dark (80L),Belgian Candi Syrup - Dark (80L),,Sugar,Sugar,80,107.4,1.032
+76,Blueberry,Blueberry,,Fruit,Fruit,0,-0.6,1.005
+77,Brown Rice Syrup - Gluten Free,Brown Rice Syrup - Gluten Free,,Sugar,Raw,2,2.1,1.044
+78,Brown Sugar,Brown Sugar,,Sugar,Sugar,15,19.7,1.045
+79,ESB Malt,Canadian - ESB Malt,Canadian,Grain,Base malt,3.5,4.1,1.036
+80,Honey Malt,Canadian - Honey Malt,Canadian,Grain,Base malt,25,33.2,1.037
+81,Munich Dark,Canadian - Munich Dark,Canadian,Grain,Base malt,32,42.6,1.034
+82,Munich Light,Canadian - Munich Light,Canadian,Grain,Base malt,10,12.9,1.034
+83,Pale 2-Row,Canadian - Pale 2-Row,Canadian,Grain,Base malt,1.75,1.8,1.036
+84,Pale Wheat,Canadian - Pale Wheat,Canadian,Grain,Base malt,2,2.1,1.036
+85,Cane Sugar,Cane Sugar,,Sugar,Sugar,0,-0.6,1.046
+86,Cherry,Cherry,,Fruit,Fruit,0,-0.6,1.006
+87,Corn Sugar - Dextrose,Corn Sugar - Dextrose,,Sugar,Sugar,0.5,0.1,1.046
+88,Corn Syrup,Corn Syrup,,Sugar,Sugar,0.5,0.1,1.037
+89,Cranberry,Cranberry,,Fruit,Fruit,0,-0.6,1.002
+90,Date,Date,,Fruit,Fruit,0,-0.6,1.027
+91,Dry Malt Extract - Amber,Dry Malt Extract - Amber,,Dry Extract,Extract,10,12.9,1.042
+92,Dry Malt Extract - Dark,Dry Malt Extract - Dark,,Dry Extract,Extract,30,39.9,1.044
+93,Dry Malt Extract - Extra Light,Dry Malt Extract - Extra Light,,Dry Extract,Extract,2.5,2.8,1.042
+94,Dry Malt Extract - Light,Dry Malt Extract - Light,,Dry Extract,Extract,4,4.8,1.042
+95,Dry Malt Extract - Munich,Dry Malt Extract - Munich,,Dry Extract,Extract,8,10.2,1.042
+96,Dry Malt Extract - Pilsen,Dry Malt Extract - Pilsen,,Dry Extract,Extract,2,2.1,1.042
+97,Dry Malt Extract - Wheat,Dry Malt Extract - Wheat,,Dry Extract,Extract,3,3.5,1.042
+98,Black Malt,Finland - Black Malt,Finland,Grain,Roasted malt,526,709.5,1.03
+99,Cara Pale,Finland - Cara Pale,Finland,Grain,Crystal malt,4,4.8,1.035
+100,Cara Plus 100,Finland - Cara Plus 100,Finland,Grain,Crystal malt,38,50.7,1.035
+101,Cara Plus 150,Finland - Cara Plus 150,Finland,Grain,Crystal malt,57,76.4,1.035
+102,Cara Plus 200,Finland - Cara Plus 200,Finland,Grain,Crystal malt,76,102,1.035
+103,Cara Plus 250,Finland - Cara Plus 250,Finland,Grain,Crystal malt,94,126.3,1.035
+104,Chocolate Malt,Finland - Chocolate Malt,Finland,Grain,Roasted malt,338,455.7,1.031
+105,Cookie Malt,Finland - Cookie Malt,Finland,Grain,Roasted malt,19,25.1,1.037
+106,Crystal Malt 100,Finland - Crystal Malt 100,Finland,Grain,Crystal malt,38,50.7,1.035
+107,Crystal Malt 150,Finland - Crystal Malt 150,Finland,Grain,Crystal malt,57,76.4,1.035
+108,Crystal Malt 250,Finland - Crystal Malt 250,Finland,Grain,Crystal malt,94,126.3,1.035
+109,Crystal Malt 300,Finland - Crystal Malt 300,Finland,Grain,Crystal malt,113,152,1.035
+110,Crystal Malt 50,Finland - Crystal Malt 50,Finland,Grain,Crystal malt,19,25.1,1.035
+111,Dark Ale,Finland - Dark Ale,Finland,Grain,Roasted malt,14,18.3,1.035
+112,Enzyme Malt,Finland - Enzyme Malt,Finland,Grain,Base malt,0,-0.6,1.035
+113,Melanoid Malt,Finland - Melanoid Malt,Finland,Grain,Roasted malt,27,35.9,1.035
+114,Munich Malt,Finland - Munich Malt,Finland,Grain,Base malt,7,8.9,1.036
+115,Organic Pilsner Malt,Finland - Organic Pilsner Malt,Finland,Grain,Base malt,2,2.1,1.036
+116,Pale Ale Malt,Finland - Pale Ale Malt,Finland,Grain,Base malt,2,2.1,1.036
+117,Pilsner Malt,Finland - Pilsner Malt,Finland,Grain,Base malt,2,2.1,1.037
+118,Vienna Malt,Finland - Vienna Malt,Finland,Grain,Base malt,3,3.5,1.036
+119,Wheat Malt,Finland - Wheat Malt,Finland,Grain,Base malt,2,2.1,1.038
+120,Flaked Barley,Flaked Barley,,Adjunct,Raw,2.2,2.4,1.032
+121,Flaked Corn,Flaked Corn,,Adjunct,Raw,0.5,0.1,1.04
+122,Flaked Oats,Flaked Oats,,Adjunct,Raw,2.2,2.4,1.033
+123,Flaked Rice,Flaked Rice,,Adjunct,Raw,0.5,0.1,1.04
+124,Flaked Rye,Flaked Rye,,Adjunct,Raw,2.8,3.2,1.036
+125,Flaked Wheat,Flaked Wheat,,Adjunct,Raw,2,2.1,1.034
+126,Abbey Malt,German - Abbey Malt,German,Grain,Base malt,17,22.4,1.033
+127,Acidulated Malt,German - Acidulated Malt,German,Grain,Acidulated malt,3.4,4,1.027
+128,Bohemian Pilsner,German - Bohemian Pilsner,German,Grain,Base malt,1.9,2,1.038
+129,CaraAmber,German - CaraAmber,German,Grain,Crystal malt,23,30.5,1.034
+130,CaraAroma,German - CaraAroma,German,Grain,Crystal malt,130,174.9,1.034
+131,CaraBelge,German - CaraBelge,German,Grain,Crystal malt,13.6,17.8,1.033
+132,CaraBohemian,German - CaraBohemian,German,Grain,Crystal malt,75,100.7,1.033
+133,Carafa I,German - Carafa I,German,Grain,Roasted malt,340,458.4,1.032
+134,Carafa II,German - Carafa II,German,Grain,Roasted malt,425,573.2,1.032
+135,Carafa III,German - Carafa III,German,Grain,Roasted malt,535,721.7,1.032
+136,CaraFoam,German - CaraFoam,German,Grain,Crystal malt,1.8,1.8,1.037
+137,CaraHell,German - CaraHell,German,Grain,Crystal malt,11,14.3,1.034
+138,Caramel Pils,German - Caramel Pils,German,Grain,Crystal malt,2.4,2.6,1.035
+139,Caramel Wheat,German - Caramel Wheat,German,Grain,Crystal malt,46,61.5,1.034
+140,CaraMunich I,German - CaraMunich I,German,Grain,Crystal malt,39,52.1,1.034
+141,CaraMunich II,German - CaraMunich II,German,Grain,Crystal malt,46,61.5,1.034
+142,CaraMunich III,German - CaraMunich III,German,Grain,Crystal malt,57,76.4,1.034
+143,Carapils,German - Carapils,German,Grain,Crystal malt,1.3,1.2,1.035
+144,CaraRed,German - CaraRed,German,Grain,Crystal malt,20,26.4,1.034
+145,Chocolate Rye,German - Chocolate Rye,German,Grain,Roasted malt,240,323.4,1.031
+146,Chocolate Wheat,German - Chocolate Wheat,German,Grain,Roasted malt,413,557,1.031
+147,Dark Munich,German - Dark Munich,German,Grain,Base malt,10,12.9,1.036
+148,Dark Wheat,German - Dark Wheat,German,Grain,Base malt,6.5,8.2,1.039
+149,De-Husked Caraf I,German - De-Husked Caraf I,German,Grain,Roasted malt,340,458.4,1.032
+150,De-Husked Caraf II,German - De-Husked Caraf II,German,Grain,Roasted malt,418,563.7,1.032
+151,De-Husked Caraf III,German - De-Husked Caraf III,German,Grain,Roasted malt,470,633.9,1.032
+152,Floor-Malted Bohemian Pilsner,German - Floor-Malted Bohemian Pilsner,German,Grain,Base malt,1.8,1.8,1.038
+153,Floor-Malted Bohemian Pilsner Dk,German - Floor-Malted Bohemian Pilsner Dk,German,Grain,Base malt,6.5,8.2,1.038
+154,Floor-Malted Bohemian Wheat,German - Floor-Malted Bohemian Wheat,German,Grain,Base malt,2,2.1,1.038
+155,Kölsch,German - Kölsch,German,Grain,Base malt,2,2.1,1.037
+156,Melanoidin,German - Melanoidin,German,Grain,Roasted malt,25,33.2,1.037
+157,Munich Dark,German - Munich Dark,German,Grain,Base malt,15.5,20.3,1.037
+158,Munich Light,German - Munich Light,German,Grain,Base malt,6,7.5,1.037
+159,Pale Ale,German - Pale Ale,German,Grain,Base malt,2.3,2.5,1.039
+160,Pale Wheat,German - Pale Wheat,German,Grain,Base malt,1.5,1.4,1.039
+161,Pilsner,German - Pilsner,German,Grain,Base malt,1.6,1.6,1.038
+162,Red X,German - Red X,German,Grain,Base malt,12,15.6,1.036
+163,Rye,German - Rye,German,Grain,Base malt,3.5,4.1,1.038
+164,Smoked Malt,German - Smoked Malt,German,Grain,Base malt,3,3.5,1.037
+165,Spelt Malt,German - Spelt Malt,German,Grain,Base malt,2,2.1,1.037
+166,Vienna,German - Vienna,German,Grain,Base malt,4,4.8,1.037
+167,Wheat Malt,German - Wheat Malt,German,Grain,Base malt,2,2.1,1.037
+168,Gooseberry,Gooseberry,,Fruit,Fruit,0,-0.6,1.005
+169,Grits,Grits,,Adjunct,Raw,1,0.8,1.037
+170,Honey,Honey,,Sugar,Sugar,2,2.1,1.042
+171,Honey (Buckwheat),Honey (Buckwheat),,Sugar,Sugar,2,2.1,1.042
+172,Invert Sugar,Invert Sugar,,Sugar,Sugar,1,0.8,1.046
+173,Ale Malt,Ireland - Ale Malt,Ireland,Grain,Base malt,3,3.5,1.037
+174,Distillers Malt,Ireland - Distillers Malt,Ireland,Grain,Base malt,2,2.1,1.037
+175,Lager Malt,Ireland - Lager Malt,Ireland,Grain,Base malt,2,2.1,1.037
+176,Stout Malt,Ireland - Stout Malt,Ireland,Grain,Base malt,2,2.1,1.037
+177,Lactose (Milk Sugar),Lactose (Milk Sugar),,Sugar,Sugar,1,0.8,1.041
+178,Lime,Lime,,Fruit,Fruit,0,-0.6,1
+179,Liquid Malt Extract - Amber,Liquid Malt Extract - Amber,,Liquid Extract,Extract,10,12.9,1.035
+180,Liquid Malt Extract - Dark,Liquid Malt Extract - Dark,,Liquid Extract,Extract,30,39.9,1.035
+181,Liquid Malt Extract - Extra Light,Liquid Malt Extract - Extra Light,,Liquid Extract,Extract,2.5,2.8,1.037
+182,Liquid Malt Extract - Light,Liquid Malt Extract - Light,,Liquid Extract,Extract,4,4.8,1.035
+183,Liquid Malt Extract - Maris Otter,Liquid Malt Extract - Maris Otter,,Liquid Extract,Extract,4,4.8,1.036
+184,Liquid Malt Extract - Munich,Liquid Malt Extract - Munich,,Liquid Extract,Extract,8,10.2,1.035
+185,Liquid Malt Extract - Pilsen,Liquid Malt Extract - Pilsen,,Liquid Extract,Extract,2,2.1,1.035
+186,Liquid Malt Extract - Rye,Liquid Malt Extract - Rye,,Liquid Extract,Extract,9,11.6,1.035
+187,Liquid Malt Extract - Wheat,Liquid Malt Extract - Wheat,,Liquid Extract,Extract,3,3.5,1.035
+188,Maltodextrin,Maltodextrin,,Sugar,Sugar,0,-0.6,1.039
+189,Mango,Mango,,Fruit,Fruit,0,-0.6,1.005
+190,Maple Syrup,Maple Syrup,,Sugar,Sugar,35,46.7,1.03
+191,Molasses,Molasses,,Sugar,Sugar,80,107.4,1.036
+192,Peach,Peach,,Fruit,Fruit,0,-0.6,1.004
+193,Pear,Pear,,Fruit,Fruit,0,-0.6,1.005
+194,Pineapple,Pineapple,,Fruit,Fruit,0,-0.6,1.006
+195,Plum,Plum,,Fruit,Fruit,0,-0.6,1.005
+196,Raspberry,Raspberry,,Fruit,Fruit,0,-0.6,1.003
+197,Rice Hulls,Rice Hulls,,Adjunct,Other,0,-0.6,1
+198,Rice Syrup Solids,Rice Syrup Solids,,Dry Extract,Raw,1,0.8,1.037
+199,Rolled Oats,Rolled Oats,,Adjunct,Raw,2.2,2.4,1.033
+200,Soft Candi Sugar - Blond,Soft Candi Sugar - Blond,,Sugar,Sugar,5,6.2,1.038
+201,Soft Candi Sugar - Brown,Soft Candi Sugar - Brown,,Sugar,Sugar,60,80.4,1.038
+202,Strawberry,Strawberry,,Fruit,Fruit,0,-0.6,1.003
+203,Torrified Barley,Torrified Barley,,Adjunct,Raw,2,2.1,1.036
+204,Torrified Wheat,Torrified Wheat,,Adjunct,Raw,2,2.1,1.036
+205,Turbinado,Turbinado,,Sugar,Sugar,10,12.9,1.044
+206,Amber,United Kingdom - Amber,United Kingdom,Grain,Base malt,27,35.9,1.032
+207,Black Patent,United Kingdom - Black Patent,United Kingdom,Grain,Roasted malt,525,708.2,1.027
+208,Brown,United Kingdom - Brown,United Kingdom,Grain,Roasted malt,65,87.2,1.032
+209,Cara Malt,United Kingdom - Cara Malt,United Kingdom,Grain,Crystal malt,17.5,23,1.035
+210,Carastan (30/37),United Kingdom - Carastan (30/37),United Kingdom,Grain,Crystal malt,34,45.3,1.035
+211,Carastan Light (15L),United Kingdom - Carastan Light (15L),United Kingdom,Grain,Crystal malt,15,19.7,1.035
+212,Chocolate,United Kingdom - Chocolate,United Kingdom,Grain,Roasted malt,425,573.2,1.034
+213,Coffee Malt,United Kingdom - Coffee Malt,United Kingdom,Grain,Roasted malt,150,201.9,1.036
+214,Crystal 140L,United Kingdom - Crystal 140L,United Kingdom,Grain,Crystal malt,140,188.4,1.033
+215,Crystal 15L,United Kingdom - Crystal 15L,United Kingdom,Grain,Crystal malt,15,19.7,1.034
+216,Crystal 30L,United Kingdom - Crystal 30L,United Kingdom,Grain,Crystal malt,30,39.9,1.034
+217,Crystal 45L,United Kingdom - Crystal 45L,United Kingdom,Grain,Crystal malt,45,60.2,1.034
+218,Crystal 50L,United Kingdom - Crystal 50L,United Kingdom,Grain,Crystal malt,50,66.9,1.034
+219,Crystal 60L,United Kingdom - Crystal 60L,United Kingdom,Grain,Crystal malt,60,80.4,1.034
+220,Crystal 70L,United Kingdom - Crystal 70L,United Kingdom,Grain,Crystal malt,70,93.9,1.034
+221,Crystal 90L,United Kingdom - Crystal 90L,United Kingdom,Grain,Crystal malt,90,120.9,1.033
+222,Crystal Rye,United Kingdom - Crystal Rye,United Kingdom,Grain,Crystal malt,90,120.9,1.033
+223,Dark Crystal 80L,United Kingdom - Dark Crystal 80L,United Kingdom,Grain,Crystal malt,80,107.4,1.033
+224,Dextrine Malt,United Kingdom - Dextrine Malt,United Kingdom,Grain,Crystal malt,1.8,1.8,1.033
+225,Extra Dark Crystal 120L,United Kingdom - Extra Dark Crystal 120L,United Kingdom,Grain,Crystal malt,120,161.4,1.033
+226,Extra Dark Crystal 160L,United Kingdom - Extra Dark Crystal 160L,United Kingdom,Grain,Crystal malt,160,215.4,1.033
+227,Golden Naked Oats,United Kingdom - Golden Naked Oats,United Kingdom,Grain,Raw,10,12.9,1.033
+228,Golden Promise,United Kingdom - Golden Promise,United Kingdom,Grain,Base malt,3,3.5,1.037
+229,Halcyon,United Kingdom - Halcyon,United Kingdom,Grain,Base malt,2,2.1,1.036
+230,Lager,United Kingdom - Lager,United Kingdom,Grain,Base malt,1.4,1.3,1.038
+231,Malted Naked Oats,United Kingdom - Malted Naked Oats,United Kingdom,Grain,Base malt,1.3,1.2,1.033
+232,Maris Otter Pale,United Kingdom - Maris Otter Pale,United Kingdom,Grain,Base malt,3.75,4.5,1.038
+233,Mild,United Kingdom - Mild,United Kingdom,Grain,Base malt,3,3.5,1.037
+234,Munich,United Kingdom - Munich,United Kingdom,Grain,Base malt,6,7.5,1.037
+235,Oat Malt,United Kingdom - Oat Malt,United Kingdom,Grain,Base malt,2,2.1,1.028
+236,Optic,United Kingdom - Optic,United Kingdom,Grain,Base malt,2.1,2.2,1.038
+237,Pale 2-Row,United Kingdom - Pale 2-Row,United Kingdom,Grain,Base malt,2.5,2.8,1.038
+238,Pale Chocolate,United Kingdom - Pale Chocolate,United Kingdom,Grain,Roasted malt,207,278.9,1.033
+239,Pearl,United Kingdom - Pearl,United Kingdom,Grain,Base malt,2.1,2.2,1.037
+240,Peated Malt,United Kingdom - Peated Malt,United Kingdom,Grain,Base malt,2.5,2.8,1.038
+241,Pilsen,United Kingdom - Pilsen,United Kingdom,Grain,Base malt,1.8,1.8,1.036
+242,Roasted Barley,United Kingdom - Roasted Barley,United Kingdom,Grain,Roasted malt,550,741.9,1.029
+243,Wheat,United Kingdom - Wheat,United Kingdom,Grain,Base malt,2,2.1,1.037
+244,Watermelon,Watermelon,,Fruit,Fruit,0,-0.6,1.004
+245,White Sorghum Syrup - Gluten Free,White Sorghum Syrup - Gluten Free,,Sugar,Sugar,1.5,1.4,1.044

@@ -1,0 +1,67 @@
+ID,NAME,ORIGIN,PCT_AA,TYPE
+0,Admiral,UK,0.148,Bittering
+1,Ahtanum,US,0.06,Aroma
+2,Amarillo Gold,US,0.085,Aroma
+3,Aquila,US,0.065,Aroma
+4,Banner,US,0.1,Bittering
+5,Bramling Cross,UK,0.06,Aroma
+6,Brewers Gold,UK,0.08,Bittering
+7,Bullion,UK,0.08,Bittering
+8,Cascade,US,0.055,Both
+9,Centennial,US,0.1,Bittering
+10,Challenger,UK,0.075,Aroma
+11,Chinook,US,0.13,Bittering
+12,Cluster,US,0.07,Bittering
+13,Columbia,UK,0.055,Bittering
+14,Columbus,US,0.14,Bittering
+15,Comet,US,0.095,Bittering
+16,Crystal,US,0.035,Aroma
+17,Eroica,US,0.13,Bittering
+18,First Gold,UK,0.075,Both
+19,Fuggles,UK,0.045,Aroma
+20,Galena,US,0.13,Bittering
+21,Glacier,US,0.056,Aroma
+22,BC Goldings,Canada,0.05,Aroma
+23,East Kent Goldings,UK,0.05,Aroma
+24,Green Bullet,New Zealand,0.135,Bittering
+25,Hallertauer (G),Germany,0.048,Aroma
+26,Hallertauer Hersbrucker,Germany,0.04,Aroma
+27,Hallertauer Mittelfrueh,Germany,0.04,Aroma
+28,Hallertauer (NZ),New Zealand,0.085,Both
+29,Herald,UK,0.12,Bittering
+30,Horizon,US,0.12,Bittering
+31,Liberty,US,0.043,Aroma
+32,Lublin,Poland,0.05,Bittering
+33,Magnum,Germany,0.14,Bittering
+34,Mt. Hood,US,0.06,Aroma
+35,Northdown,UK,0.085,Both
+36,Northern Brewer,Germany,0.085,Both
+37,Nugget,US,0.13,Bittering
+38,Orion,Germany,0.073,Both
+39,Pacific Gem,New Zealand,0.15,Bittering
+40,Pearle,Germany,0.08,Bittering
+41,Phoenix,UK,0.08,Bittering
+42,Pilgrim,UK,0.115,Bittering
+43,Pioneer,UK,0.09,Both
+44,Pride of Ringwood,Australia,0.09,Bittering
+45,Progress,UK,0.063,Aroma
+46,Saaz,Czech Rep,0.04,Aroma
+47,Santiam,US,0.06,Aroma
+48,Select Spalt,Germany,0.048,Aroma
+49,Southern Cross,New Zealand,0.13,Both
+50,Spalter,Germany,0.045,Aroma
+51,Sterling,US,0.075,Both
+52,Sticklebract,New Zealand,0.135,Both
+53,Strisselspalt,France,0.04,Aroma
+54,Styrian Goldings,Slovenia,0.054,Aroma
+55,Sun,US,0.14,Bittering
+56,Super Alpha,New Zealand,0.13,Bittering
+57,Target,UK,0.11,Bittering
+58,Tettnang,Germany,0.045,Aroma
+59,Tradition,Germany,0.06,Bittering
+60,Ultra,US,0.03,Aroma
+61,Vanguard,US,0.055,Aroma
+62,Warrior,US,0.15,Both
+63,Whitbread Goldings,UK,0.06,Aroma
+64,Willamette,US,0.055,Aroma
+65,Zeus,US,0.14,Bittering
