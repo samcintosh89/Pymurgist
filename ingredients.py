@@ -7,7 +7,12 @@ hpath = 'C:/Users/SAM/Documents/GitHub/Pymurgist/Data/hoplist.csv'
 grist = p.read_csv(gpath, header = 0)
 hops = p.read_csv(hpath, header = 0)
 
+#Strike temp functions
+def strike_temp(x):
+	scalar = (1.0 + (0.44 * (x.maltweight/(x.mashliquor * 8.18)) * (1.0 - (x.graintemp/x.mashtemp))))
+	return x.mashtemp * scalar
 
+#SG functions
 def potential_sg(malt, weight):
 	index = grist[grist['D_NAME'] == malt].index.tolist()[0]
 	ppg = grist.POT_SG.iloc[index] - 1.0
@@ -19,6 +24,7 @@ def mash_sg(mash):
 		sg += potential_sg(malt, weight)
 	return sg
 
+#SRM functions
 def potential_srm(mash, batchsize):
 	mcu = 0.0
 	for malt, weight in mash.items():
@@ -30,6 +36,7 @@ def potential_srm(mash, batchsize):
 	else:
 		return 1.4922 * (mcu ** 0.6859)
 
+#Hopping functions
 def hop_aa(name, pct_aa):
 	if pct_aa == None:
 		index = hops[hops['NAME'] == name].index.tolist()[0]
