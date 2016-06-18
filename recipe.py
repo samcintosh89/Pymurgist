@@ -40,11 +40,16 @@ def printtest(x):
 	print 'Sparge Liquor (gal):	%.2f' % x.spargeliquor
 	print 'Total Liquor (gal):	%.2f' % x.totalliquor
 
-b = Target()
-printtest(b)
-b.mash_in('United Kingdom - Maris Otter Pale', 10.0)
-printtest(b)
-b.mash_in('United Kingdom - Roasted Barley', 0.25)
-printtest(b)
-setattr(b, 'graintemp', 10.0)
-printtest(b)
+def main():
+	b = Target()
+	printtest(b)
+	b.mash_in('United Kingdom - Maris Otter Pale', 10.0)
+	printtest(b)
+	b.mash_in('United Kingdom - Roasted Barley', 0.25)
+	printtest(b)
+	setattr(b, 'graintemp', 10.0)
+	printtest(b)
+	raw_input('main')
+
+if __name__ == '__main__':
+	main()

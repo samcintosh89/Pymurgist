@@ -1,8 +1,8 @@
 import pandas as p 
 import math as m
 
-gpath = 'C:/Users/SAM/Documents/GitHub/Pymurgist/Data/gristlist.csv'
-hpath = 'C:/Users/SAM/Documents/GitHub/Pymurgist/Data/hoplist.csv'
+gpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/gristlist.csv'
+hpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/hoplist.csv'
 
 grist = p.read_csv(gpath, header = 0)
 hops = p.read_csv(hpath, header = 0)
@@ -73,3 +73,7 @@ class HopAddition(object):
 		self._total_ibus = sum(self.hops.values())
 
 	total_ibus = property(extract, boiled)
+
+if __name__ == '__main__':
+	print 'Only the finest hops and barley'
+	raw_input('Wouldn\'t you agree?')
