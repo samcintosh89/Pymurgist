@@ -1,5 +1,48 @@
-import ingredients as ing
+#import ingredients as ing
+import pandas as p 
+import math as m
 
+gpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/gristlist.csv'
+hpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/hoplist.csv'
+
+grist = p.read_csv(gpath, header = 0)
+hops = p.read_csv(hpath, header = 0)
+
+#Strike temp functions
+def strike_temp(x):
+	scalar = (1.0 + (0.44 * (x.maltweight/(x.mashliquor * 8.18)) * (1.0 - (x.graintemp/x.mashtemp))))
+	return x.mashtemp * scalar
+
+#SG functions
+def potential_sg(malt, weight):
+	index = grist[grist['D_NAME'] == malt].index.tolist()[0]
+	ppg = grist.POT_SG.iloc[index] - 1.0
+	return ppg * weight
+
+def mash_sg(mash):
+	sg = 0.0
+	for malt, weight in mash.items():
+		sg += potential_sg(malt, weight)
+	return sg
+
+#SRM functions
+def potential_srm(mash, batchsize):
+	mcu = 0.0
+	for malt, weight in mash.items():
+		index = grist[grist['D_NAME'] == malt].index.tolist()[0]
+		color = grist.LOV.iloc[index]
+		mcu += ((color * weight) / batchsize)
+	if mcu < 10.5:
+		return mcu
+	else:
+		return 1.4922 * (mcu ** 0.6859)
+
+def get_srm(malt):
+	index = grist[grist['D_NAME'] == malt].index.tolist()[0]
+	srm = grist.LOV.iloc[index]
+	return srm
+
+#Recipe target
 class Target(object):
 	def __init__(self):
 		self.grist = {} 			#'malt' : weight
@@ -13,10 +56,10 @@ class Target(object):
 		Target.maltweight = property(lambda self: sum(self.grist.values()))
 		Target.absorption = property(lambda self: self.maltweight * 1/8) #For 0.5 qt/lb use 1/8, +/- 1/16 increments by 0.25 qt/lb
 		Target.mashliquor = property(lambda self: self.maltweight * 3/8) #For 1.5 qt/lb use 3/8, +/- 1/16 increments by 0.25 qt/lb
-		Target.strike = property(lambda self: 0.0 if not any(self.grist) else ing.strike_temp(self))
-		Target.og = property(lambda self: 1.0 + (ing.mash_sg(self.grist) * self.efficiency / self.batchsize))
+		Target.strike = property(lambda self: 0.0 if not any(self.grist) else strike_temp(self))
+		Target.og = property(lambda self: 1.0 + (mash_sg(self.grist) * self.efficiency / self.batchsize))
 		Target.fg = property(lambda self: 1.0 + ((self.og - 1.0) * (1.0 - self.attenuation)))
-		Target.srm = property(lambda self: ing.potential_srm(self.grist, self.batchsize))
+		Target.srm = property(lambda self: potential_srm(self.grist, self.batchsize))
 		Target.abv = property(lambda self: (1.05/0.79) * ((self.og - self.fg) / self.fg) * 100.0)
 		Target.boiloff = property(lambda self: (self.boiltime / 60) * 1.25) #1.25 gal/hr evaporation
 		Target.totalliquor = property(lambda self: (1.04 * self.batchsize) + self.absorption + self.boiloff + 0.25)
@@ -49,7 +92,8 @@ def main():
 	printtest(b)
 	setattr(b, 'graintemp', 10.0)
 	printtest(b)
-	raw_input('main')
+	b.mash_in('United Kingdom - Maris Otter Pale', 12.0)
+	printtest(b)
 
 if __name__ == '__main__':
 	main()

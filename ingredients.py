@@ -75,5 +75,4 @@ class HopAddition(object):
 	total_ibus = property(extract, boiled)
 
 if __name__ == '__main__':
-	print 'Only the finest hops and barley'
-	raw_input('Wouldn\'t you agree?')
+	pass
