@@ -1,50 +1,42 @@
 import sys
-from PyQt4 import QtCore, QtGui
+from PyQt4 import QtCore, QtGui, uic
+import recipe as rcp
 
+qtCreatorFile = "pymurgui.ui" # Enter file here.
 
-class MainWindow(QtGui.QMainWindow):
+Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
-    def __init__(self, parent=None):
-        super(MainWindow, self).__init__(parent)
-        self.form_widget = FormWidget(self)
-        _widget = QtGui.QWidget()
-        _layout = QtGui.QVBoxLayout(_widget)
-        _layout.addWidget(self.form_widget)
-        self.setCentralWidget(_widget)
+class MyThread(QThread):
+	def __init__(self):
+		QThread.__init__(self)
+		pass
 
-class FormWidget(QtGui.QWidget):
+	def __del__(self):
+		self.wait()
 
-    def __init__(self, parent):
-        super(FormWidget, self).__init__(parent)
-        self.__controls()
-        self.__layout()
+	def mythreadfunction(self, arg):
+		pass
 
-    def __controls(self):
-        self.label = QtGui.QLabel("Name for backdrop")
-        self.txted = QtGui.QLineEdit()
-        self.lbled = QtGui.QLabel("Select a readNode")
-        self.cmbox = QtGui.QComboBox()
+	def run(self):
+		mtf = mythreadfunction(None)
+		pass
 
-    def __layout(self):
-        self.vbox = QtGui.QVBoxLayout()
-        self.hbox = QtGui.QHBoxLayout()
-        self.h2Box = QtGui.QHBoxLayout()
+class MyApp(QtGui.QMainWindow, Ui_MainWindow):
+	def __init__(self):
+		QtGui.QMainWindow.__init__(self)
+		Ui_MainWindow.__init__(self)
+		self.setupUi(self)
 
-        self.hbox.addWidget(self.label)
-        self.hbox.addWidget(self.txted)
+	def callmythread(self):
+		self.mythread = MyThread()
+		self.connect(self.mythread, SIGNAL('someSignal()'), self.appfunction)
 
-        self.h2Box.addWidget(self.lbled)
-        self.h2Box.addWidget(self.cmbox)
+	def appfunction(self):
+		pass
 
-        self.vbox.addLayout(self.hbox)
-        self.vbox.addLayout(self.h2Box)
-        self.setLayout(self.vbox)
-
-def main():
-    app = QtGui.QApplication(sys.argv)
-    win = MainWindow()
-    win.show()
-    app.exec_()
 
 if __name__ == '__main__':
-    sys.exit(main()) 
+	app = QtGui.QApplication(sys.argv)
+	window = MyApp()
+	window.show()
+	sys.exit(app.exec_())

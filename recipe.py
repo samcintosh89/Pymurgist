@@ -2,8 +2,8 @@
 import pandas as p 
 import math as m
 
-gpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/gristlist.csv'
-hpath = 'C:/Users/McNutty/Documents/GitHub/Pymurgist/Data/hoplist.csv'
+gpath = 'Data/gristlist.csv'
+hpath = 'Data/hoplist.csv'
 
 grist = p.read_csv(gpath, header = 0)
 hops = p.read_csv(hpath, header = 0)
