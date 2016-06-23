@@ -6,6 +6,8 @@ qtCreatorFile = "pymurgui.ui" # Enter file here.
 
 Ui_MainWindow, QtBaseClass = uic.loadUiType(qtCreatorFile)
 
+target = rcp.Target()
+
 class MyThread(QThread):
 	def __init__(self):
 		QThread.__init__(self)
@@ -31,9 +33,16 @@ class MyApp(QtGui.QMainWindow, Ui_MainWindow):
 		self.mythread = MyThread()
 		self.connect(self.mythread, SIGNAL('someSignal()'), self.appfunction)
 
-	def appfunction(self):
-		pass
-
+	def updateVitals(self):
+		self.lblABV.setText('%.1f' % target.abv)
+		self.lblBoiloff.setText('%.2f' % target.boiloff)
+		self.lblFG.setText('%.3f' % target.fg)
+		self.lblMashLiquor.setText('%.2f' % target.mashliquor)
+		self.lblOG.setText('%.3f' % target.og)
+		self.lblSRM.setText('%d' % target.srm)
+		self.lblSpargeLiquor.setText('%.2f' % target.spargeliquor)
+		self.lblStrikeTemp.setText('%.2f' % target.strike)
+		self.lblTotalLiquor.setText('%.2f' % target.totalliquor)
 
 if __name__ == '__main__':
 	app = QtGui.QApplication(sys.argv)
