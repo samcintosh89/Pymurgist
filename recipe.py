@@ -51,18 +51,18 @@ class Target(object):
 		self.batchsize = 6.0		#Gallons, use setattr(object, 'attribute', value) to change
 		self.boiltime = 60			#Minutes, use setattr(object, 'attribute', value) to change
 		self.efficiency = 0.75		#percent, use setattr(object, 'attribute', value) to change
-		self.graintemp = 70.0 		#Fahrenheit, use setattr(object, 'attribute', value) to change
-		self.mashtemp = 153.0 		#Fahrenheit, use setattr(object, 'attribute', value) to change
+		self.graintemp = 78.0 		#Fahrenheit, use setattr(object, 'attribute', value) to change
+		self.mashtemp = 152.0 		#Fahrenheit, use setattr(object, 'attribute', value) to change
 		Target.maltweight = property(lambda self: sum(self.grist.values()))
 		Target.absorption = property(lambda self: self.maltweight * 1/8) #For 0.5 qt/lb use 1/8, +/- 1/16 increments by 0.25 qt/lb
-		Target.mashliquor = property(lambda self: self.maltweight * 3/8) #For 1.5 qt/lb use 3/8, +/- 1/16 increments by 0.25 qt/lb
+		Target.mashliquor = property(lambda self: self.maltweight * 5/16) #For 1.5 qt/lb use 3/8, +/- 1/16 increments by 0.25 qt/lb
 		Target.strike = property(lambda self: 0.0 if not any(self.grist) else strike_temp(self))
 		Target.og = property(lambda self: 1.0 + (mash_sg(self.grist) * self.efficiency / self.batchsize))
 		Target.fg = property(lambda self: 1.0 + ((self.og - 1.0) * (1.0 - self.attenuation)))
 		Target.srm = property(lambda self: potential_srm(self.grist, self.batchsize))
 		Target.abv = property(lambda self: (1.05/0.79) * ((self.og - self.fg) / self.fg) * 100.0)
-		Target.boiloff = property(lambda self: (self.boiltime / 60) * 1.25) #1.25 gal/hr evaporation
-		Target.totalliquor = property(lambda self: (1.04 * self.batchsize) + self.absorption + self.boiloff + 0.25)
+		Target.boiloff = property(lambda self: (self.boiltime / 60) * 1.5) #1.25 gal/hr evaporation
+		Target.totalliquor = property(lambda self: (1.04 * self.batchsize) + self.absorption + self.boiloff + 1.0) #0.25 gal trub loss, 0.75 gal dead space
 		Target.spargeliquor = property(lambda self: self.totalliquor - self.mashliquor)
 
 	def mash_in(self, malt, weight):
@@ -85,14 +85,10 @@ def printtest(x):
 
 def main():
 	b = Target()
-	printtest(b)
-	b.mash_in('United Kingdom - Maris Otter Pale', 10.0)
-	printtest(b)
-	b.mash_in('United Kingdom - Roasted Barley', 0.25)
-	printtest(b)
-	setattr(b, 'graintemp', 10.0)
-	printtest(b)
-	b.mash_in('United Kingdom - Maris Otter Pale', 12.0)
+	b.mash_in('American - Pale Ale', 10.0)
+	b.mash_in('American - Caramel / Crystal 40L', 0.75)
+	b.mash_in('American - Caramel / Crystal 15L', 0.75)
+	b.mash_in('Rice Hulls', 1.0)
 	printtest(b)
 
 if __name__ == '__main__':
